@@ -22,6 +22,7 @@ public class MyStepDefinitions {
 	@Given("^User is in the GreenKart landing page$")
     public void user_is_in_the_greenkart_landing_page() throws Throwable {
 		driver=Base.getDriver();
+		System.out.println("Browser is invoked");
         Thread.sleep(3000);
     }
 
