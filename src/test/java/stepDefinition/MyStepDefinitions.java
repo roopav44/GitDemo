@@ -23,6 +23,9 @@ public class MyStepDefinitions {
     public void user_is_in_the_greenkart_landing_page() throws Throwable {
 		driver=Base.getDriver();
 		System.out.println("Browser is invoked");
+		System.out.println("Browser is invoked");
+		System.out.println("Browser is invoked");
+		System.out.println("Browser is invoked");
         Thread.sleep(3000);
     }
 
